@@ -18,11 +18,12 @@ test_set = subset(dataset, split == FALSE)
 # Fitting Simple Linear Regression to the Training set
 regressor = lm(formula = Salary ~ YearsExperience,
                data = training_set)
-
+#Summary regressor
 # Predicting the Test set results
-y_pred = predict(regressor, newdata = test_set)
+y_pred = predict(regressor, newdata = test_set) 
 
 # Visualising the Training set results
+#install.packages('ggplot2')
 library(ggplot2)
 ggplot() +
   geom_point(aes(x = training_set$YearsExperience, y = training_set$Salary),
@@ -35,7 +36,9 @@ ggplot() +
 
 # Visualising the Test set results
 library(ggplot2)
+#Each component has a +
 ggplot() +
+  #geom_point is scatter plot, aes aesthetic mapping of points
   geom_point(aes(x = test_set$YearsExperience, y = test_set$Salary),
              colour = 'red') +
   geom_line(aes(x = training_set$YearsExperience, y = predict(regressor, newdata = training_set)),
