@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Jun 06 11:41:17 PDT 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0163-d667-307d-00000e799cd8 
+on database directory /Users/sam1/Documents/Projects/Git/ML-Playpin/pyspark-tutorial/Spark_for_Machine_Learning/Recommender_Systems/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@3ab0e0cc 
+Loaded from file:/usr/local/spark/jars/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_161-b12
+user.dir=/Users/sam1/Documents/Projects/Git/ML-Playpin/pyspark-tutorial/Spark_for_Machine_Learning/Recommender_Systems
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.13.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
