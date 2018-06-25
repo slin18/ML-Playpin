@@ -1,7 +1,7 @@
 ----------------------------------------------------------------
-Fri Jun 08 15:50:39 PDT 2018:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0163-e198-3854-00000e964f88 
-on database directory /Users/sam1/Documents/Projects/Git/ML-Playpin/pyspark-lebron/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@3ab0e0cc 
+Fri Jun 08 15:57:29 PDT 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0163-e19e-784d-00000e72aca0 
+on database directory /Users/sam1/Documents/Projects/Git/ML-Playpin/pyspark-lebron/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@a245286 
 Loaded from file:/usr/local/spark/jars/derby-10.12.1.1.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_161-b12
